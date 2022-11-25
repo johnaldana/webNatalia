@@ -1,0 +1,77 @@
+h1 {
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+h2 {
+    font: 20px sans-serif bold;
+}
+
+header, section, aside, nav, article, footer, hgroup {
+
+    /* border: 1px solid black; */
+    display: block;
+
+}
+
+/* body {
+    
+    text-align: center;
+
+} */
+
+/* div {
+    background: azure;
+} */
+
+
+.agrupar{
+
+    background: azure;
+    width: 1160px;
+    margin: 30px auto;
+    padding: 30px;
+    border: 1px solid black;
+
+}
+
+.header{
+    background: #006666;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px
+}
+
+.menu li {
+    list-style: none;
+    padding: 5px;
+    font: bold 20px verdana;
+    display: inline-block;
+}
+
+.seccion {
+    text-align: justify;
+    margin: 20px;
+    width: 700px;
+    
+}
+
+.listaAlumno {
+    width: 300px;
+   
+}
+
+article{
+    background: #006666;
+    padding: 10px;
+    margin: 20px;
+}
+
+.pie {
+    font: bold 20px verdana;
+    text-align: center;
+    border-top: 2px solid black;
+    padding: 15px;
+}
