@@ -9,23 +9,15 @@ h2 {
     font: 20px sans-serif bold;
 }
 
-header, section, aside, nav, article, footer, hgroup {
+.header{
 
-    /* border: 1px solid black; */
-    display: block;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+
 
 }
-
-/* body {
-    
-    text-align: center;
-
-} */
-
-/* div {
-    background: azure;
-} */
-
 
 .agrupar{
 
@@ -47,31 +39,44 @@ header, section, aside, nav, article, footer, hgroup {
 .menu li {
     list-style: none;
     padding: 5px;
-    font: bold 20px verdana;
+    font: bold 25px verdana;
     display: inline-block;
+   
 }
 
 .seccion {
-    text-align: justify;
     margin: 20px;
-    width: 700px;
+    width: 900px;
+    float: left;
     
 }
 
+figure img:hover{
+
+    -webkit-transform: scale(1.2);
+}
+
 .listaAlumno {
-    width: 300px;
-   
+    width: 200px;
+    float: inline-start;  
+    display: inline-block;
+    font: bold 30px verdana;
+    margin-top: 20px;
+    margin-bottom: 550px;
 }
 
 article{
     background: #006666;
     padding: 10px;
     margin: 20px;
+    font: bold 20px verdana;
+    text-align: center;
+    padding: 15px;
 }
 
 .pie {
-    font: bold 20px verdana;
+    font: bold 15px verdana;
     text-align: center;
-    border-top: 2px solid black;
-    padding: 15px;
+    width: 1000px;
+    border-top: 1px solid black;
 }
